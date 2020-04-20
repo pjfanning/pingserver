@@ -2,11 +2,11 @@ organization := "com.github.pjfanning"
 
 name := "pingserver"
 
-scalaVersion := "2.12.8"
+scalaVersion := "2.12.11"
 
-val akkaVersion = "2.5.21"
-val akkaHttpVersion = "10.1.7"
-val slf4jVersion = "1.7.25"
+val akkaVersion = "2.5.31"
+val akkaHttpVersion = "10.1.11"
+val slf4jVersion = "1.7.30"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream" % akkaVersion,
