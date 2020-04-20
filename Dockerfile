@@ -1,4 +1,4 @@
-FROM pjfanning/zulu-openjdk-alpine:14.0.0
+FROM pjfanning/zulu-openjdk-alpine:14.0.1
 
 RUN apk add --update \
     openssl \
