@@ -2,9 +2,9 @@ organization := "com.github.pjfanning"
 
 name := "pingserver"
 
-scalaVersion := "2.12.11"
+scalaVersion := "2.13.1"
 
-val akkaVersion = "2.5.31"
+val akkaVersion = "2.6.4"
 val akkaHttpVersion = "10.1.11"
 val slf4jVersion = "1.7.30"
 
