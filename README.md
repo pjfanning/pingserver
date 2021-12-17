@@ -13,3 +13,7 @@ The server logs the requests that it receives and returns a 200 OK response.
 `sbt clean universal:packageZipTarball`
 
 `docker build .`
+
+## Running Docker Image
+
+`docker run -d -p 9999:9999 pjfanning/pingserver:latest`
