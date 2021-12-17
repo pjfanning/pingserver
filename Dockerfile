@@ -1,4 +1,4 @@
-FROM pjfanning/zulu-openjdk-alpine:14.0.1
+FROM azul/zulu-openjdk-alpine:17.0.0
 
 RUN apk add --update \
     openssl \
@@ -9,7 +9,7 @@ RUN apk add --update \
 WORKDIR /root
 
 ADD entrypoint.sh /entrypoint.sh
-ADD target/universal/pingserver-0.1.0.tgz .
+ADD target/universal/pingserver-0.1.1.tgz .
 
 RUN chmod +x /entrypoint.sh
 
