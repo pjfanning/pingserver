@@ -2,17 +2,17 @@ organization := "com.github.pjfanning"
 
 name := "pingserver"
 
-scalaVersion := "2.13.7"
+scalaVersion := "2.13.14"
 
-val akkaVersion = "2.6.16"
-val akkaHttpVersion = "10.2.7"
-val slf4jVersion = "1.7.32"
+val akkaVersion = "2.6.21"
+val akkaHttpVersion = "10.2.10"
+val slf4jVersion = "1.7.36"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-stream" % akkaVersion,
   "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
   "org.slf4j" % "slf4j-api" % slf4jVersion,
-  "ch.qos.logback" % "logback-classic" % "1.2.8" 
+  "ch.qos.logback" % "logback-classic" % "1.2.13"
 )
 
 enablePlugins(JavaAppPackaging)
