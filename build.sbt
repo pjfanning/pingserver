@@ -4,13 +4,13 @@ name := "pingserver"
 
 scalaVersion := "2.13.14"
 
-val akkaVersion = "2.6.21"
-val akkaHttpVersion = "10.2.10"
+val pekkoVersion = "1.0.2"
+val pekkoHttpVersion = "1.0.1"
 val slf4jVersion = "1.7.36"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" %% "akka-stream" % akkaVersion,
-  "com.typesafe.akka" %% "akka-http" % akkaHttpVersion,
+  "org.apache.pekko" %% "pekko-stream" % pekkoVersion,
+  "org.apache.pekko" %% "pekko-http" % pekkoHttpVersion,
   "org.slf4j" % "slf4j-api" % slf4jVersion,
   "ch.qos.logback" % "logback-classic" % "1.2.13"
 )

@@ -1,9 +1,10 @@
 package com.example.ping
 
-import akka.actor.ActorSystem
-import akka.http.scaladsl.Http
-import akka.http.scaladsl.server.Directives
-import akka.http.scaladsl.unmarshalling.Unmarshal
+import org.apache.pekko
+import pekko.actor.ActorSystem
+import pekko.http.scaladsl.Http
+import pekko.http.scaladsl.server.Directives
+import pekko.http.scaladsl.unmarshalling.Unmarshal
 import org.slf4j.LoggerFactory
 
 import scala.concurrent.{Await, ExecutionContext}
